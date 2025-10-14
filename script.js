@@ -6,7 +6,7 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, { threshold: 0.2 });
-
+ 
 document.querySelectorAll('section, .project-box').forEach(el => observer.observe(el));
 
 // Highlight active navbar link
@@ -62,6 +62,4 @@ window.addEventListener("scroll", () => {
       }
       setTimeout(type, 1000);
     }
-  }
-
-  type(); 
+  }type(); 

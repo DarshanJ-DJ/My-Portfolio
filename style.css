@@ -68,21 +68,6 @@ body {
   height: 100vh;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png') repeat;
-  opacity: 0.2;
-}
-
-.hero-content {
-  z-index: 1;
-  opacity: 0;
-  transform: translateY(40px);
-  animation: fadeUp 1.5s ease-out forwards;
-}
-
 @keyframes fadeUp {
   to {
     opacity: 1;
